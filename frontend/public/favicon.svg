@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <circle cx="50" cy="50" r="45" fill="#667eea"/>
+  <path d="M25 35 L45 35 L45 55 L35 65 L25 55 Z" fill="#764ba2"/>
+  <circle cx="35" cy="45" r="3" fill="#e74c3c"/>
+  <circle cx="42" cy="42" r="2" fill="#27ae60"/>
+  <text x="50" y="85" text-anchor="middle" fill="#667eea" font-family="Arial" font-size="6">MEDIPULSE</text>
+</svg>
