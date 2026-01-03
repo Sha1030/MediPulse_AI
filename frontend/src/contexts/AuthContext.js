@@ -8,7 +8,7 @@ function AuthProvider({ children }) {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    axios.defaults.baseURL = 'http://localhost:3002';
+    axios.defaults.baseURL = 'https://medipulse-ai-backend.onrender.com';
 
     const token = localStorage.getItem('token');
     if (token) {

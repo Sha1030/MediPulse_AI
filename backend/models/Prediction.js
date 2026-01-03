@@ -23,7 +23,7 @@ const predictionSchema = new mongoose.Schema({
     type: Number,
     required: true,
     min: 0,
-    max: 1
+    max: 2
   },
   accident_probability: {
     type: Number,
