@@ -62,7 +62,7 @@ def predict():
         
         response = {
             'emergency_load': round(emergency_load, 1),
-            'icu_beds': round(icu_beds, 1),
+            'icu_beds_required': round(icu_beds, 1),
             'ventilator_demand': round(ventilator_demand, 1),
             'staff_workload': staff_level,
             'alert_level': alert_level,
