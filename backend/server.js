@@ -534,7 +534,7 @@ app.post('/api/alerts', auth, requireAdmin, async (req, res) => {
 });
 
 // Prediction Routes
-app.post('/api/predict', async (req, res) => {
+app.post('/predict', async (req, res) => {
   try {
     const { day_of_week, hour_of_day, previous_load, seasonal_indicator, accident_probability, scenario_name } = req.body;
 
