@@ -47,7 +47,7 @@ function PredictionManagement() {
   const handleMakePrediction = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('/api/predict', newPrediction);
+      const response = await axios.post('/predict', newPrediction);
       setPredictionResult(response.data);
       setShowPredictForm(false);
       loadPredictions();
