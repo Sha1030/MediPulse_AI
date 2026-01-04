@@ -562,7 +562,7 @@ app.post('/api/predict', async (req, res) => {
       accident_probability: parseFloat(accident_probability),
       scenario_name: scenario_name || 'Manual Prediction',
       emergency_load: mlResponse.data.emergency_load,
-      icu_beds_required: mlResponse.data.icu_beds,
+      icu_beds_required: mlResponse.data.icu_beds_required,
       ventilator_demand: mlResponse.data.ventilator_demand,
       staff_workload: mlResponse.data.staff_workload,
       alert_level: mlResponse.data.alert_level,
